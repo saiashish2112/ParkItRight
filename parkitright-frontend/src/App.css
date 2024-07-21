@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #007bff;
+}
+
+form {
+  margin: 20px 0;
+}
+
+form div {
+  margin: 10px 0;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form select {
+  padding: 5px;
+  width: 200px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}

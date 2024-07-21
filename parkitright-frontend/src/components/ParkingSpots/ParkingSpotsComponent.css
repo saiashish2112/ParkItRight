@@ -1,0 +1,38 @@
+.parking-spot-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.parking-spot-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.parking-spot-item p {
+    margin: 5px 0;
+}
+
+.parking-spot-item .spot-number {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.parking-spot-item .spot-type {
+    color: #666;
+}
+
+.parking-spot-item .spot-occupied {
+    color: #d9534f;
+}
+
+.parking-spot-item .spot-available {
+    color: #5cb85c;
+}
+
+.parking-spot-item .vehicle-id {
+    color: #0275d8;
+    font-style: italic;
+}
